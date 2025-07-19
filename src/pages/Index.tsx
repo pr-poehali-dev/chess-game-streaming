@@ -178,7 +178,11 @@ export default function Index() {
                       <Icon name="Timer" size={14} className="mr-1" />
                       {stream.duration}
                     </div>
-                    <Button size="sm" className="group-hover:bg-chess-dark group-hover:text-chess-light transition-colors">
+                    <Button 
+                      size="sm" 
+                      className="group-hover:bg-chess-dark group-hover:text-chess-light transition-colors"
+                      onClick={() => window.location.href = '/live'}
+                    >
                       {stream.status === 'live' ? 'Смотреть' : 'Напомнить'}
                     </Button>
                   </div>
