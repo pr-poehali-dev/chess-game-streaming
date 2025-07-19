@@ -61,6 +61,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				chess: {
+					dark: '#2C1810',
+					light: '#F4F3F0',
+					accent: '#8B4513',
+					black: '#000000'
 				}
 			},
 			borderRadius: {
